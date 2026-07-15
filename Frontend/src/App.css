@@ -1,0 +1,47 @@
+html,
+body,
+#root{
+  height: 100%;
+  width: 100%;
+}
+main{
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+main .left,.right{
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.5rem;
+}
+main .left{
+  background-color: bisque ;
+  position: relative;
+}
+.left .code{
+  height:100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.5rem;
+  background-color: bisque;
+}
+main .left .review{
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: aliceblue;
+  color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+  user-select: none;
+  cursor: pointer;
+}
+main .right{
+  background-color:chocolate;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  overflow:auto;
+  color: black;
+}
